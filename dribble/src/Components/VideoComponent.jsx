@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { AiFillHeart, AiFillFolderAdd } from 'react-icons/ai'
+import VideoContentTop from "./VideoContentTop";
 
 export default function VideoComponent() {
     return (
@@ -32,6 +33,8 @@ export default function VideoComponent() {
                     <source src="https://cdn.dribbble.com/userupload/3766216/file/original-c36f589e560e44128fd7bd184d1e87e5.mp4" type="video/mp4" />
                 </video>
             </Box>
+
+            <VideoContentTop/>
         </>
     )
 }
