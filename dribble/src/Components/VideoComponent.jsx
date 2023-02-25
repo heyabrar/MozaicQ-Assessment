@@ -29,7 +29,7 @@ export default function VideoComponent() {
             </Flex>
 
             <Box width={{ base: '100%', md :'95%', lg: '65%' }} margin='auto' mt='20px'>
-                <video autoPlay loop muted style={{ borderRadius: '10px' }} controls>
+                <video autoPlay loop muted style={{ borderRadius: '10px' }}>
                     <source src="https://cdn.dribbble.com/userupload/3766216/file/original-c36f589e560e44128fd7bd184d1e87e5.mp4" type="video/mp4" />
                 </video>
             </Box>
