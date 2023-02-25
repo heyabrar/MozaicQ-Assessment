@@ -1,3 +1,4 @@
+import DesignAgency from "../Components/DesignAgency";
 import HireUsVideo from "../Components/HireUsVideo";
 import Information from "../Components/Information";
 import MainBodyImages from "../Components/MainBodyImages";
@@ -12,6 +13,7 @@ export default function HomePage ( ){
         <MainBodyImages/>
         <HireUsVideo/>
         <Information/>
+        <DesignAgency/>
         </>
     )
 }

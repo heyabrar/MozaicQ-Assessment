@@ -2,14 +2,37 @@
     display: inline;
 }
 
+.DesignImage:hover + .ShowOnHover{
+    display: flex;
+    gap: 10px;
+}
+
+.ShowOnHover{
+    display: none;
+    position: relative;
+    top: -40px;
+    left: 150px;
+}
+
 @media (max-width : 480px){
     .Musemind{
         display: none;
+    }
+
+    .ShowOnHover{
+        display: none;
+        position: relative;
+        top: -40px;
     }
 }
 
 @media(min-width:768px) and (max-width:1024px){
     .Musemind{
         display: none;
+    }
+
+    .ShowOnHover{
+        top: -40px;
+        left: 150px;
     }
 }

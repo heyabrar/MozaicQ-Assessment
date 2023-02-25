@@ -19,7 +19,7 @@ export default function VideoComponent() {
 
                 <Flex gap='10px' display={{ base: 'none', lg: 'flex' }}>
                     <Button size='sm' bg='white' colorScheme='white' color='#6e6d7a'>Save</Button>
-                    <Button size='sm' bg='#ea4c89' color='white' colorScheme='#ea4c89'><span><AiFillHeart /></span> Like</Button>
+                    <Button size='sm' bg='#ea4c89' color='white' colorScheme='#ea4c89'><span style={{marginRight :'5px'}}><AiFillHeart /></span > Like</Button>
                 </Flex>
             </Flex>
 
