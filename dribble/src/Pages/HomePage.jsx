@@ -1,4 +1,5 @@
 import DesignAgency from "../Components/DesignAgency";
+import Footer from "../Components/Footer";
 import HireUsVideo from "../Components/HireUsVideo";
 import Information from "../Components/Information";
 import MainBodyImages from "../Components/MainBodyImages";
@@ -14,6 +15,7 @@ export default function HomePage ( ){
         <HireUsVideo/>
         <Information/>
         <DesignAgency/>
+        <Footer/>
         </>
     )
 }
