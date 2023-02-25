@@ -1,5 +1,4 @@
 import { Box, Flex, IconButton, Stack, Text, Image, Input, useDisclosure, Button, InputGroup, InputLeftElement } from '@chakra-ui/react';
-import { Link } from "@chakra-ui/react"
 import { HamburgerIcon, CloseIcon, SearchIcon } from '@chakra-ui/icons';
 
 export default function Navbar() {
@@ -9,6 +8,7 @@ export default function Navbar() {
             <Box bg='black' color='white' padding='12px' fontSize='13px' textAlign='center' display={{ base: 'none', md: 'none', lg: 'block' }} >
                 <Text><b>📚LAST CHANCE! </b> Registration for our 16 week Product Design course closes on Monday, February 27. <b style={{ color: '#ea4c89' }}>Sign up now before spots run out!</b></Text>
             </Box>
+            
             <Box px={4} mb={20} className='ChackraNavBar' shadow='sm' padding='10px'>
                 <Flex h={16} alignItems='center'>
                     <IconButton color='black' size='md' bg='white' icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px' color='#6e6d7a' />} aria-label='Open Menu' display={{ lg: 'none' }} onClick={isOpen ? onClose : onOpen} />
@@ -17,7 +17,7 @@ export default function Navbar() {
                         <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Dribbble_Text_Logo_Script.svg/2560px-Dribbble_Text_Logo_Script.svg.png' width='80px' m='auto' />
                     </Flex>
 
-                    <Flex as={'nav'} display={{ base: 'none', md: 'none', lg: 'none' }} spacing={4} gap='10px' w={{ base: '', md: '90%', lg: '95%' }} alignItems='center' justifyContent='space-between'>
+                    <Flex as={'nav'} display={{ base: 'none', md: 'none', lg: 'flex' }} spacing={4} gap='10px' w={{ base: '', md: '90%', lg: '95%' }} alignItems='center' justifyContent='space-between'>
                         <Flex justifyContent='space-around' width='40%' color='#6e6d7a' fontWeight='600'>
                             <Text>Inspiration</Text>
                             <Text>Find Work</Text>
